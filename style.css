@@ -5,24 +5,43 @@
     border: 1px solid black;
 }
 
+h2{
+    margin:1px
+}
+
+h4{
+    margin:1px
+}
+
 .content{
     color: #333;
     background-color: #3aafa9;
     display: flex;
     border: 1px solid black;
-    padding: 100px;
-    justify-content: flex-start;
+    padding: 50px;
+    height: 100vh;
+    justify-content: space-around;
+    
+}
+
+.image{
+max-height: 100%;
+max-width: 100%;
+width: 400px;
+height: auto;
 }
 
 .photo{
     display: flex;
-    padding: 30px;
     border: 1px solid black;
+    flex-direction: column;
+
 }
 
 .profile{
     display: flex;
-    padding: 30px;
     border: 1px solid black;
     flex-direction: column;
+    padding: 20px;
+    padding-top: 0;
 }
