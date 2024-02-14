@@ -2,14 +2,31 @@
     background-color: #2b7a78;
     padding: 40px;
     margin: 0;
-    border: 1px solid black;
+    
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin: 1px
 }
 
 h2{
-    margin:1px
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin:40px;
+    margin-left: 1px;
+    color: white;   
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin:1px;
 }
 
 h4{
+    
     margin:1px
 }
 
@@ -17,31 +34,83 @@ h4{
     color: #333;
     background-color: #3aafa9;
     display: flex;
-    border: 1px solid black;
-    padding: 50px;
+    padding: 150px;
+    padding-top: 20px;
+    
     height: 100vh;
     justify-content: space-around;
     
 }
 
-.image{
-max-height: 100%;
-max-width: 100%;
-width: 400px;
-height: auto;
+.self_image{
+    max-height: 100%;
+    max-width: 100%;
+    width: 400px;
+    height: auto;
 }
+
 
 .photo{
     display: flex;
-    border: 1px solid black;
     flex-direction: column;
 
 }
 
 .profile{
     display: flex;
-    border: 1px solid black;
     flex-direction: column;
     padding: 20px;
     padding-top: 0;
+    
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    color: white;
+}
+
+.skill1{
+    display: flex;
+    background-color: #17252a;
+    width: 300px;
+    margin: 10px
+    
+}
+
+.skill2{
+    display: flex;
+    background-color: #17252a;
+    width: 250px;
+    margin: 10px
+  
+}
+
+.skill3{
+    display: flex;
+    background-color: #17252a;
+    width: 200px;
+    margin: 10px
+    
+}
+
+.skill4{
+    display: flex;
+    background-color: #17252a;
+    width: 280px;
+    margin: 10px
+}
+
+.skill5{
+    display: flex;
+    background-color: #17252a;
+    width: 220px;
+    margin: 10px
+}
+
+.description{
+    display: flex;
+    justify-content:flex-start;
+    width: 100vh
 }
