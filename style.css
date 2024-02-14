@@ -1,0 +1,28 @@
+.header{
+    background-color: #2b7a78;
+    padding: 40px;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.content{
+    color: #333;
+    background-color: #3aafa9;
+    display: flex;
+    border: 1px solid black;
+    padding: 100px;
+    justify-content: flex-start;
+}
+
+.photo{
+    display: flex;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.profile{
+    display: flex;
+    padding: 30px;
+    border: 1px solid black;
+    flex-direction: column;
+}
